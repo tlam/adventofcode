@@ -38,12 +38,7 @@ func ZeroCount(filename string) int {
 		initialStartDial := startDial
 		cycleCount := rotations / 100
 
-		if cycleCount > 0 {
-			rotations = rotations - (cycleCount * 100)
-
-			fmt.Printf("Remainder is %d\n", rotations)
-
-		}
+		rotations = rotations % 100
 
 		if direction == "L" {
 			startDial -= rotations

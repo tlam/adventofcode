@@ -17,4 +17,4 @@ Practicing [Go](https://go.dev/) with [Advent of Code](https://adventofcode.com)
 - Run specific test:
 
       cd 2025/1/part_two
-      go -run TestZeroCountL75
+      go test -run TestZeroCountL75
